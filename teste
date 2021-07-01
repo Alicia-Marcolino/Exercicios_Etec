@@ -1,0 +1,36 @@
+/*
+ * Created by SharpDevelop.
+ * User: Alicia
+ * Date: 15/05/2021
+ * Time: 12:15
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace sobrenome_nome
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			Console.Write("Nome: ");
+			string n = Console.ReadLine();
+			Console.Write("Sobrenome: ");
+			string s = Console.ReadLine();
+			
+			string r =s + ", " + n;
+			
+			Console.WriteLine("Nome Completo: "+ r);
+			Console.ReadKey();
+			
+			// TODO: Implement Functionality Here
+			
+			Console.Write("Pressione qualquer tecla . . . ");
+			Console.ReadKey(true);
+			
+			//fim
+		}
+	}
+}
